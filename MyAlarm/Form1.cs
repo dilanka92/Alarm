@@ -331,5 +331,20 @@ namespace MyAlarm
         {
             cmb_hr.SelectAll();
         }
+
+        private void cmb_hr_SelectedValueChanged(object sender, EventArgs e)
+        {
+            lblHr.Text = cmb_hr.Text;
+        }
+
+        private void cmb_min_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblMin.Text = cmb_min.Text;
+        }
+
+        private void cmb_sec_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblSec.Text = cmb_sec.Text;
+        }
     }
 }
