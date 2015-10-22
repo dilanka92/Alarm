@@ -290,7 +290,6 @@
             this.cmb_sec.Name = "cmb_sec";
             this.cmb_sec.Size = new System.Drawing.Size(40, 25);
             this.cmb_sec.TabIndex = 14;
-            this.cmb_sec.SelectedIndexChanged += new System.EventHandler(this.cmb_sec_SelectedIndexChanged);
             this.cmb_sec.Click += new System.EventHandler(this.cmb_sec_Click);
             // 
             // cmb_min
@@ -305,7 +304,6 @@
             this.cmb_min.Name = "cmb_min";
             this.cmb_min.Size = new System.Drawing.Size(40, 25);
             this.cmb_min.TabIndex = 13;
-            this.cmb_min.SelectedIndexChanged += new System.EventHandler(this.cmb_min_SelectedIndexChanged);
             this.cmb_min.Click += new System.EventHandler(this.cmb_min_Click);
             // 
             // cmb_hr
@@ -320,7 +318,6 @@
             this.cmb_hr.Name = "cmb_hr";
             this.cmb_hr.Size = new System.Drawing.Size(40, 25);
             this.cmb_hr.TabIndex = 12;
-            this.cmb_hr.SelectedValueChanged += new System.EventHandler(this.cmb_hr_SelectedValueChanged);
             this.cmb_hr.Click += new System.EventHandler(this.cmb_hr_Click);
             this.cmb_hr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmb_hr_KeyPress);
             // 
@@ -329,7 +326,7 @@
             this.lblSec.AutoSize = true;
             this.lblSec.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSec.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lblSec.Location = new System.Drawing.Point(238, 178);
+            this.lblSec.Location = new System.Drawing.Point(236, 178);
             this.lblSec.Name = "lblSec";
             this.lblSec.Size = new System.Drawing.Size(60, 46);
             this.lblSec.TabIndex = 11;
@@ -350,7 +347,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label10.Location = new System.Drawing.Point(208, 178);
+            this.label10.Location = new System.Drawing.Point(206, 178);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(28, 39);
             this.label10.TabIndex = 10;
@@ -381,7 +378,7 @@
             this.lblMin.AutoSize = true;
             this.lblMin.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMin.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lblMin.Location = new System.Drawing.Point(153, 178);
+            this.lblMin.Location = new System.Drawing.Point(151, 178);
             this.lblMin.Name = "lblMin";
             this.lblMin.Size = new System.Drawing.Size(60, 46);
             this.lblMin.TabIndex = 9;
@@ -412,7 +409,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label8.Location = new System.Drawing.Point(123, 178);
+            this.label8.Location = new System.Drawing.Point(121, 178);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 39);
             this.label8.TabIndex = 8;
@@ -442,7 +439,7 @@
             this.lblHr.AutoSize = true;
             this.lblHr.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHr.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lblHr.Location = new System.Drawing.Point(68, 178);
+            this.lblHr.Location = new System.Drawing.Point(66, 178);
             this.lblHr.Name = "lblHr";
             this.lblHr.Size = new System.Drawing.Size(60, 46);
             this.lblHr.TabIndex = 7;
@@ -492,7 +489,7 @@
             this.mynotifyicon.BalloonTipTitle = "My Alarm";
             this.mynotifyicon.Icon = ((System.Drawing.Icon)(resources.GetObject("mynotifyicon.Icon")));
             this.mynotifyicon.Tag = "My Alarm";
-            this.mynotifyicon.Text = "My Alarm v6.4";
+            this.mynotifyicon.Text = "My Alarm v6.2";
             this.mynotifyicon.Visible = true;
             this.mynotifyicon.Click += new System.EventHandler(this.mynotifyicon_Click);
             this.mynotifyicon.DoubleClick += new System.EventHandler(this.mynotifyicon_DoubleClick);
@@ -512,7 +509,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "My Alarm";
-            this.Text = "My Alarm v6.4";
+            this.Text = "My Alarm v6.3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize);
             this.groupBox1.ResumeLayout(false);
