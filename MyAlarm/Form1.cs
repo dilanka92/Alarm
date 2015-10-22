@@ -137,7 +137,7 @@ namespace MyAlarm
         {
             if (cmb_act.Text == " ----- Select -----")
             {
-                MessageBox.Show("Select Action", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Select an action", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 cmb_act.Focus();
             }
 
