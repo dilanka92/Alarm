@@ -348,5 +348,10 @@ namespace MyAlarm
         {
             lblSec.Text = cmb_sec.Text;
         }
+
+        private void cmb_hr_KeyDown(object sender, KeyEventArgs e)
+        {
+            // TODO validate timer isNumaric. 
+        }
     }
 }

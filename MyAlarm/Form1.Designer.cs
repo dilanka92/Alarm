@@ -72,7 +72,7 @@
             this.btn_Sleep.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateBlue;
             this.btn_Sleep.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_Sleep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Sleep.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Sleep.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sleep.Location = new System.Drawing.Point(136, 30);
             this.btn_Sleep.Name = "btn_Sleep";
             this.btn_Sleep.Size = new System.Drawing.Size(100, 50);
@@ -87,7 +87,7 @@
             this.btn_Lock.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateBlue;
             this.btn_Lock.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_Lock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Lock.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Lock.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Lock.Location = new System.Drawing.Point(13, 30);
             this.btn_Lock.Name = "btn_Lock";
             this.btn_Lock.Size = new System.Drawing.Size(100, 50);
@@ -102,7 +102,7 @@
             this.btn_Hibr.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateBlue;
             this.btn_Hibr.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_Hibr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Hibr.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Hibr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Hibr.Location = new System.Drawing.Point(256, 30);
             this.btn_Hibr.Name = "btn_Hibr";
             this.btn_Hibr.Size = new System.Drawing.Size(100, 50);
@@ -145,7 +145,7 @@
             this.btn_Rst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateBlue;
             this.btn_Rst.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_Rst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Rst.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Rst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Rst.Location = new System.Drawing.Point(136, 100);
             this.btn_Rst.Name = "btn_Rst";
             this.btn_Rst.Size = new System.Drawing.Size(100, 50);
@@ -160,7 +160,7 @@
             this.btn_Shut.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateBlue;
             this.btn_Shut.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_Shut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Shut.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Shut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Shut.Location = new System.Drawing.Point(13, 100);
             this.btn_Shut.Name = "btn_Shut";
             this.btn_Shut.Size = new System.Drawing.Size(100, 50);
@@ -253,6 +253,7 @@
             // 
             this.cmb_act.AllowDrop = true;
             this.cmb_act.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.cmb_act.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_act.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmb_act.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_act.FormattingEnabled = true;
@@ -315,23 +316,23 @@
             this.cmb_hr.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_hr.ForeColor = System.Drawing.SystemColors.InfoText;
             this.cmb_hr.FormatString = "N0";
-            this.cmb_hr.FormattingEnabled = true;
             this.cmb_hr.Location = new System.Drawing.Point(111, 48);
             this.cmb_hr.Name = "cmb_hr";
             this.cmb_hr.Size = new System.Drawing.Size(40, 25);
             this.cmb_hr.TabIndex = 12;
             this.cmb_hr.SelectedValueChanged += new System.EventHandler(this.cmb_hr_SelectedValueChanged);
             this.cmb_hr.Click += new System.EventHandler(this.cmb_hr_Click);
+            this.cmb_hr.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cmb_hr_KeyDown);
             this.cmb_hr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmb_hr_KeyPress);
             // 
             // lblSec
             // 
             this.lblSec.AutoSize = true;
-            this.lblSec.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSec.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lblSec.Location = new System.Drawing.Point(238, 178);
+            this.lblSec.Location = new System.Drawing.Point(237, 182);
             this.lblSec.Name = "lblSec";
-            this.lblSec.Size = new System.Drawing.Size(60, 46);
+            this.lblSec.Size = new System.Drawing.Size(57, 39);
             this.lblSec.TabIndex = 11;
             this.lblSec.Text = "00";
             // 
@@ -350,7 +351,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label10.Location = new System.Drawing.Point(208, 178);
+            this.label10.Location = new System.Drawing.Point(207, 179);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(28, 39);
             this.label10.TabIndex = 10;
@@ -379,11 +380,11 @@
             // lblMin
             // 
             this.lblMin.AutoSize = true;
-            this.lblMin.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMin.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lblMin.Location = new System.Drawing.Point(153, 178);
+            this.lblMin.Location = new System.Drawing.Point(152, 182);
             this.lblMin.Name = "lblMin";
-            this.lblMin.Size = new System.Drawing.Size(60, 46);
+            this.lblMin.Size = new System.Drawing.Size(57, 39);
             this.lblMin.TabIndex = 9;
             this.lblMin.Text = "00";
             // 
@@ -412,7 +413,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label8.Location = new System.Drawing.Point(123, 178);
+            this.label8.Location = new System.Drawing.Point(122, 179);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 39);
             this.label8.TabIndex = 8;
@@ -440,11 +441,11 @@
             // lblHr
             // 
             this.lblHr.AutoSize = true;
-            this.lblHr.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHr.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lblHr.Location = new System.Drawing.Point(68, 178);
+            this.lblHr.Location = new System.Drawing.Point(67, 182);
             this.lblHr.Name = "lblHr";
-            this.lblHr.Size = new System.Drawing.Size(60, 46);
+            this.lblHr.Size = new System.Drawing.Size(57, 39);
             this.lblHr.TabIndex = 7;
             this.lblHr.Text = "00";
             // 
